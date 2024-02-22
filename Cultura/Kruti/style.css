@@ -1,0 +1,110 @@
+/* style.css */
+
+
+/* Global styles */
+body {
+    font-family: 'Times New Roman', serif;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Partition line styles */
+.section-divider {
+    border-bottom: 5px solid #000000; /* Change color and thickness as desired */
+    margin: 10px auto; /* Adjust margin as needed */
+  }
+  
+
+/* Hover effect for benefit items */
+.benefit-item {
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit-item:hover {
+    transform: scale(1.05);
+  }
+  
+  
+/* Define a translucent background color with rounded edges */
+.translucent-background {
+    background-color: rgba(0, 0, 0, 0.363); /* White color with 50% opacity */
+    padding: 25px; /* Adjust padding size as needed */
+    border-radius: 20px; /* Make the corners rounded */
+  }
+
+  
+/* Set background texture */
+body {
+    background-image: url("C:\\Users\\NITIN SAXENA\\Desktop\\Cultura\\Resources\\BG.jpg"); /* Replace 'your-texture-image.jpg' with your actual texture image path */
+    background-repeat: repeat; /* Set to 'repeat' for a repeating pattern */
+    background-size: auto; /* Set to 'auto' to maintain the original size of the texture */
+  }
+  
+/* Header styles */
+header {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+  }
+  
+  .company-name {
+    font-size: 3rem;
+    color: #ffd700; /* Change color as desired */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+    transition: transform 0.3s ease;
+  }
+  
+  .company-name:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Navigation styles */
+  .nav-links {
+    margin-top: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd700; /* Change hover color as desired */
+  }
+  
+  
+  /* Section styles */
+  .section-title {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 50px;
+  }
+  
+  /* Scrolling and fading effects */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInAnimation 1s ease forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Adjust the delay for each fade-in element */
+  .fade-in:nth-child(1){
+    animation-delay: 0.5s; 
+  }
