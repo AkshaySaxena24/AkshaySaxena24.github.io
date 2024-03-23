@@ -36,7 +36,7 @@ body {
   
 /* Set background texture */
 body {
-    background-image: url("C:\\Users\\NITIN SAXENA\\Desktop\\Cultura\\Resources\\BG.jpg"); /* Replace 'your-texture-image.jpg' with your actual texture image path */
+    background-image: url("Cultura/Resources/BG.jpg"); /* Replace 'your-texture-image.jpg' with your actual texture image path */
     background-repeat: repeat; /* Set to 'repeat' for a repeating pattern */
     background-size: auto; /* Set to 'auto' to maintain the original size of the texture */
   }
